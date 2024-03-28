@@ -135,7 +135,9 @@ section{
   padding: 1rem 0;
   line-height: 1.8;
 }
-
+.categories{
+  background-color: #ffffff;
+}
 .head-content{
   display: flex;
   align-items: center;
