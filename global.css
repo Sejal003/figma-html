@@ -1,0 +1,47 @@
+@media (max-width : 991px){
+  html{
+      font-size: 55%;
+  }
+  .header{
+      padding: 2rem;
+  }
+  section{
+      padding: 2rem;
+  }
+}
+@media (max-width : 768px){
+  .header .navbar{
+      position: absolute;
+      top: 110%;
+      right: -110%;
+      width: 30rem;
+      box-shadow: var(--box-shadow);
+      border-radius: .5rem;
+      background: #030303;
+  }
+  .header .navbar.active{
+      right: 2rem;
+      transition: .4s linear;
+  }
+  .header .navbar a{
+      margin: 2rem 2.5rem;
+      font-size: 2rem;
+      display: block;
+  }
+  #menu-btn{
+      display: inline-block;
+  }
+}
+
+
+@media (max-width : 550px){
+  html{
+      font-size: 50%;
+  }
+  .heading{
+      font-size: 2.5rem;
+  }
+  .footer{
+      text-align: center;
+  }
+}
